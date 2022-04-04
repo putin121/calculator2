@@ -34,7 +34,8 @@ public class MainActivity2 extends AppCompatActivity {
                 getBaseContext(),
                 android.R.layout.simple_list_item_1,
                 list
-        );logTview.setAdapter(adapter);
+        );
+
         //Создаем AsyncTask для работы с рекурсией
         assyncRecursion task = new assyncRecursion();
         //Запускаем AsyncTask
